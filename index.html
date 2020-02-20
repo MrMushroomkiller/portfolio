@@ -1,8 +1,8 @@
 <!DOCTYPE html>
+
+<title>Portfolio - Thomas Lalancette</title>
+
 <html>
-<header>
-    <title>Portfolio - Thomas Lalancette</title>
-</header>
 
 <head>
     <style>
@@ -64,13 +64,20 @@
         .current {
             background-color: #c90000
         }
-
-        .size {
-            position: relative;
-            width: 49vw;
-            height: 1.5*50vw;
-            float: left;
+        
+        a.butt:link, a.butt:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
         }
+        a.butt:hover, a.butt:active {
+            background-color: red;
+        }
+
+
     </style>
 
 </head>
@@ -79,9 +86,9 @@
 
     <h1 style="font-family:Copperplate; color:#ffffff">THOMAS LALANCETTE</h1>
     <ul>
-        <li><a href="#Accueil" class="current">Acceuil</a></li>
+        <li><a href="javascript:void(0)" class="current">Acceuil</a></li>
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Portfolio</a>
+            <a href="./portfolio.html" class="dropbtn">Portfolio</a>
             <div class="dropdown-content">
                 <a href="#">Freezheat 2000</a>
                 <a href="#">Meta Speaker</a>
@@ -90,9 +97,13 @@
         </li>
     </ul>
 
-    <img src="images/meta speaker/ms_desing_1.jpeg" alt="speaker" class="size">
-    <p style="color:#ffffff; position: absolute; left: 50vw;">Bienvenue sur mon Portfolio <br>
-        Vous y trouverai sous forme de projets, la passion que j'épprouve pour l'électronique<br>
+    
+    
+    <p style="color:white">
+        <img src="images/meta speaker/ms_desing_1.jpeg" style="float:left; padding-right: 5px; max-width: 50vw; height: auto" alt="speaker">
+        Bienvenue sur mon Portfolio <br >
+        Vous y trouverai sous forme de projets créatifs et poussés, la passion que j'épprouve pour l'électronique
+        <h1><a class="butt" href="./portfolio.html" style="font-family:Copperplate">Découvrir mon travail</a></h1>
     </p>
 
 
